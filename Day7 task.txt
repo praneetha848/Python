@@ -1,0 +1,13 @@
+***Create GitHub***
+Uploaded files
+
+************Tuple***********
+tuple=(1,2,3)
+print(tuple)
+
+O/P: (1, 2, 3)
+
+tuple=('hours','mints','sec')
+print(tuple[:2])
+
+O/P:('hours', 'mints')
