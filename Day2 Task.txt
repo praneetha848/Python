@@ -1,0 +1,57 @@
+name="pranitha"
+
+print(name) : o/p: pranitha
+
+print(name.title()) o/p: Pranitha
+
+print(type(name)) o/p: str
+
+print (name.upper()) o/p: PRANEETHA
+
+print (name.lower()) o/p: pranitha
+
+print (name[5]) o/p: t
+
+print (name[:5]) o/p: prani
+
+print (name[3:7]) o/p: nith
+
+print (name[:])  o/p: pranitha
+
+*****************************************************
+
+first_name= " pranitha"
+last_name= "pinky"
+full_name= f"{first_name.title()} {last_name.title()}"
+print (full_name[2:13])  
+
+O/P : ranitha Pin
+
+****************************************************
+Adding white spaces
+
+print ("\t     pranitha")
+
+O/p:            pranitha  
+****************************************************
+For new line
+
+print ("pranitha\npinky\nworking\nin hyderabad")
+
+o/p: pranitha
+pinky
+working
+in hyderabad
+**************************************************
+
+Assiging the values
+
+a,b,c=2,5,9
+print(a,b,c)
+
+O/p: 2 5 9
+*************** Day 2 Task ********************************
+
+
+
+    

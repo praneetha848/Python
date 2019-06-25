@@ -1,0 +1,58 @@
+For Loop
+
+subjects=['telugu','hind','english']
+for x in subjects:
+    print(x)
+
+O/P:
+telugu
+hind
+english
+    print(x.title())
+O/P:Telugu
+    Hind
+    English
+
+Groups=['mpc','mec','bipc']
+for x in Groups:
+    print(f"{x.title()},group in this college")
+print('You can choose any group')
+
+O/P:
+Mpc,group in this college
+Mec,group in this college
+Bipc,group in this college
+You can choose any group
+***********************************************************
+Groups=['mpc','mec','bipc']
+   for x in groups:
+   print(x)
+***********************************************************
+using ** 
+squares=[]
+for x in range(3,9):
+     values=(x**3)
+     print(values)
+O/P
+
+27
+64
+125
+216
+343
+512
+
+squares=[]
+for x in range(3,9):
+    values=(x**3)
+    squares.append(values)
+    print(squares)
+
+o/p: 
+[27]
+[27, 64]
+[27, 64, 125]
+[27, 64, 125, 216]
+[27, 64, 125, 216, 343]
+[27, 64, 125, 216, 343, 512]  
+

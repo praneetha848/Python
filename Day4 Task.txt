@@ -1,0 +1,52 @@
+Reversed
+
+groups=['mpc','mec','bipc']
+y=reversed(groups)
+for x in y:
+   print(x)
+
+o/p:
+bipc
+mec
+mpc
+
+A="school"
+y=reversed(A)
+for x in y:
+   print(x)
+
+O/P:
+l
+o
+o
+h
+c
+s
+**************************************************
+List=[]
+print(List)
+O/P
+[]
+
+
+A=int(input("enter the input"))
+print(A)
+O/P
+5
+
+A=str(input("enter the input"))
+B=str(input("enter the input"))
+print(A+B)
+
+O/P:
+A=str(input("enter the input"))
+B=str(input("enter the input"))
+print(A+B)
+
+**************************************************
+Negative indexing
+
+List=['1','2','3','4']
+print(List[-1])
+o/p:
+4

@@ -1,0 +1,66 @@
+#Assigning values
+
+colors=['red','green','blue','pink']
+print(colors) o/p:['red', 'green', 'blue', 'pink']
+
+#Print 2nd index
+colors=['red','green','blue','pink']
+print(colors[1]) o/p: green
+
+#first element in upper case
+colors=['RED', 'GREEN', 'BLUE', 'PINK']
+colors=[element.title() for element in colors]
+print(colors)
+o/p:['Red', 'Green', 'Blue', 'Pink']
+
+
+#All elements in upper case
+colors=['red','green','blue','pink']
+colors=[element.upper() for element in colors]
+print(colors) 
+o/p : ['RED', 'GREEN', 'BLUE', 'PINK']
+
+#All elements in lower case
+
+colors=['RED', 'GREEN', 'BLUE', 'PINK']
+colors=[element.lower() for element in colors]
+print(colors)
+o/p: ['red', 'green', 'blue', 'pink']
+*******************************************
+#append
+
+colors=['red','green','blue','pink']
+colors.append("white")
+print(colors) o/p:['red','green','blue','pink','white']
+****************************************
+#pop ( delete )
+
+colors=['red','green','blue','pink']
+colors.pop()
+print(colors) o/p:['red', 'green', 'blue']
+
+
+#pop(2)
+colors=['red','green','blue','pink']
+colors.pop(2)
+print(colors) o/p:['red', 'green', 'pink']
+
+
+************************************************
+#insert
+
+colors=['red','green','blue','pink']
+colors.insert(2,'yellow')
+print(colors)
+
+***********************************************
+#sort
+
+colors=['red','green','blue','pink']
+colors.sort()
+print(colors)
+
+***********************************************
+
+
+
