@@ -1,0 +1,36 @@
+If Statment
+
+colors=['red','blue','green']
+for x in colors:
+    if x == "red" :
+        print ("My bag color")
+    else:
+        print("My dress color")
+
+O/P:
+My bag color
+My dress color
+My dress color
+
+****************************************
+......#!= Condition
+
+colors=['red','blue','green']
+for x in colors:
+    if x != "red" :
+        print ("My bag color")
+    else:
+        print("My dress color")
+
+O/P:
+My dress color
+My bag color
+My bag color
+
+*********************************************
+Key: Values
+
+colors={'red':1,"blue":2,"date":27}
+print(colors['red'],colors['date'])
+
+1 27
