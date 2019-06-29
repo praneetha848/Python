@@ -1,0 +1,32 @@
+**modifying values of dic**
+
+color={"dress":" blue"}
+print(f"my fav dress color is{color['dress']}")
+color['dress']=' black '
+print(f"my fav dress color is {color['dress']}")
+
+O/P: my fav dress color is blue
+my fav dress color is  black 
+
+*******************************************
+Delete
+
+color={"dress":" blue",'cap':'black'}
+print(f"my fav dress color is{color['dress'],color['cap']}")
+del color['cap']
+print(color)
+
+O/P:
+my fav dress color is(' blue', 'black')
+{'dress': ' blue'}
+
+***********************************************
+How to print first letter caps
+
+color={"dress":" blue",'cap':'black'}
+fav=color['dress'].title()
+print(fav)
+
+O/P: Blue
+
+*************************************************
