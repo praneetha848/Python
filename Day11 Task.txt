@@ -1,0 +1,29 @@
+For Loop
+name={"pinky":"first","fayaz":"second","radha":"third","usha":"fourth"}
+for key,value in name.items():
+ print(key.title() , ":", value.title())
+O/P:
+Pinky : First
+Fayaz : Second
+Radha : Third
+Usha : Fourth
+*******************************************
+Only keys
+name={"pinky":"first","fayaz":"second","radha":"third","usha":"fourth"}
+for key,value in name.items():
+ print(key.title())
+PINKY
+FAYAZ
+RADHA
+USHA
+***********************************************
+Only value
+
+name={"pinky":"first","fayaz":"second","radha":"third","usha":"fourth"}
+for key,value in name.items():
+ print(value.upper())
+O/P: 
+FIRST
+SECOND
+THIRD
+FOURTH
