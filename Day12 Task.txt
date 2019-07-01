@@ -1,0 +1,14 @@
+How to give input by user
+
+info= int(input("What is you fav number? "))
+print(info)
+
+O/P:What is you fav number? 48
+    48
+
+info= input("What is you fav name? ")
+print(info)
+O/P: What is you fav name? Status baba
+Status baba
+
+
