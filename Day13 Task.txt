@@ -1,0 +1,24 @@
+While Loop
+info= int(input("enter the number"))
+while info<=10:
+ print(info)
+ info+=1
+******************************************************
+How test even or odd
+
+Number= int(input("enter the number"))
+if Number%2==0:
+  print("Even{Number}")
+else:
+    print("Odd{Number}")
+
+*******************************************************
+Float
+
+Number= float(input("enter the number"))
+Number2= float(input("enter the number"))
+Answer=Number%Number2
+print(Answer)
+O/P: 5%4=1.0
+
+*******************************************************
