@@ -1,0 +1,16 @@
+#Passing a for loop in the function..
+def greet_users(names):
+    '''Print Greeting to users'''
+    for name in names:
+        msg=f"Good Morning,{name.title()}!"
+        print(msg)
+usernames=['prani','pinky','ponky']
+greet_users(usernames)
+
+*************************************************************
+passing an arbitary no of arguments
+def  seasonal(*fruits):
+    '''Print all seasonal fruits'''
+    print(fruits)
+seasonal('mango','watermelon','kewi')
+*************************************************
