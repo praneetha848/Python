@@ -1,0 +1,47 @@
+#letter the user choose when to quit:
+
+prompt="\n What do you want?"
+prompt+="\n quit the program"
+message=" "
+while message!='quit':
+    message=input(prompt)
+    print(message)
+************************************************************
+Functions:
+
+def Greet_user():
+ '''Display the greetings'''
+print("good morning")
+Greet_user()
+**********************************************************
+Passing info to a function:
+
+def Greet_user(name):
+    print(f"good morning,{name.upper()}!")
+Greet_user('prani')
+**********************************************************
+#Postional arguments:
+
+def pet_details(animal,name):
+    '''information'''
+    print(f"my animal is {animal}")
+    print(f"my {animal}'s' name is {name}")
+pet_details('Dog','puppy')
+
+**********************************************************
+Key arguments
+
+def pet_details(animal,name):
+    '''information'''
+    print(f"my animal is {animal}")
+    print(f"my {animal}'s' name is {name}")
+pet_details(name='puppy',animal='dog')
+******************************************************
+Returning the values from a function
+
+def customer_name(first_name,last_name):
+    '''Display customer name'''
+    full_name=f"{first_name} {last_name}"
+    return full_name.title()
+name=customer_name("katragadda"," pranitha")
+print(name)
