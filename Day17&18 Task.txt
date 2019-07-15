@@ -1,0 +1,91 @@
+class My_Name:
+    def Name(self,name,age):
+        '''Initialize name and age'''
+        self.name=name
+        self.age=age
+    def displayname(self):
+        return self.name
+        return self.age
+    def saying(self):
+        print(f"My name,{self.name}. My age {self.age}")
+My_Name
+first=My_Name()
+first.Name('Pranitha',25)
+first.displayname()
+first.saying()
+
+***************************************************************
+class pet:
+    def _init_(self,name,age):
+        self.name=name
+        self.age=age
+    def sit(self):
+        print(f"{self.name} is sitting")
+
+    def roll_over(self):
+        print(f"{self.name}is rolled over")
+my_pet= pet('puppy',5)
+print(f"my pet name is {my_pet.name}")
+print(f"my pet age is {my_pet.age}")
+
+***************************************************
+Superclass and Subclass!!
+
+class parentclass:
+    var1="I am learning python."
+    var2="Basic Concepts."
+parentobj=parentclass()
+parentobj.var1
+parentobj.var2
+print(parentobj.var1)
+print(parentobj.var2)
+
+O/P:I am learning python.
+Basic Concepts.
+
+*****************************************************
+class parentclass:
+    var1="I am learning python"
+    var2="Basic Concepts"
+parentobj=parentclass()
+parentobj.var2
+class childclass(parentclass):
+    var2="My class timing morning 7 to 7.30"
+childobj=childclass()
+childobj.var2
+print(parentobj.var1)
+print(childobj.var2)
+
+O/P:I am learning python
+My class timing morning 7 to 7.30
+*******************************************************
+class parentclass:
+
+    var1="I am learning python"
+    var2="Basic Concepts"
+
+parentobj=parentclass()
+
+parentobj.var2
+
+class childclass(parentclass):
+    var3="My class timing morning 7 to 7.30"
+
+childobj=childclass()
+childobj.var3
+
+print(parentobj.var1)
+print (parentobj.var2)
+print (childobj.var3)
+
+O/P:I am learning python
+Basic Concepts
+My class timing morning 7 to 7.30
+**********************************************************
+class project:
+    def _init_(self):
+        projectobj = project()
+
+
+print("My project")
+print("Python")
