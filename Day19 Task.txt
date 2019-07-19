@@ -1,0 +1,40 @@
+#Class using constructors,methods,value
+class games:
+      def _init_(self,game,player,year):
+        self.game=game
+        self.player=player
+        self.year=year
+      def get_describe_games(self):
+          long_name=f"{self.game}{self.player}{self.year}"
+          return long_name.title()
+fav_game=games('cricket','sachin',1995)
+print(fav_game.get_describe_games())
+
+*******************************************************setting # default value
+
+class games:
+      def _init_(self,game,player,year):
+        self.game=game
+        self.player=player
+        self.year=year
+      def get_describe_games(self):
+          long_name=f"{self.game}{self.player}{self.year}"
+          return long_name.title()
+      def read_meter(self):
+          print(f"My fav game is {self.meterreading}")
+fav_game= games('cricket','sachin',1995)
+print(fav_game.get_describe_games())
+fav_game.read_meter()
+
+*********************************************
+Multiple Parent Class:
+
+class teacher:
+      var1="I am teacher "
+class student:
+      var2="I am student"
+class classroom(teacher,student):
+      var3="Teacher and student in the classroom"
+classroomobj=classroom()
+classroomobj.var3
+print(classroom.var3)
